@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>DiscoverPlus</title>
+</head>
+
+<body class="m-0 p-0">
+
+    <div class="container-fluid m-0 p-0">
+
+        <!-- navbar -->
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Discover<span Class="text-warning">Plus</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html" id="Home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="profile.html" id="Profile">Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#" id="Categories">Categories</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" id="games">Quizez/Polls</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" id="AboutUs">AboutUs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" id="Services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="register.html" id="register">Login/Signup</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="text" id="newsQuery" placeholder="Search news">
+                            <button class="btn btn-outline-warning" type="button" id="searchBtn">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Profile  -->
+        <div id="detail">
+            <span class="text-body-emphasis fs-3">User Profile</span><br>
+            <span class="text-body-emphasis fs-5">Name:</span>
+
+            <div class="input-group me-auto">
+                <span class="input-group-text">First and last name</span>
+                <input type="text" aria-label="First name" class="form-control">
+                <input type="text" aria-label="Last name" class="form-control">
+             </div>
+             <div class="form-floating mb-3 me-auto">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+              </div>
+              <div class="form-floating me-auto">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+              </div>
+            
+              <span class="text-body-emphasis fs-5">Category Preferences:</span>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Technology
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">
+                  Politics
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Business & Finance
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">
+                  Sports & Entertainment
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Education
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">
+                  Politics
+                </label>
+              </div>
+              
+        </div>
+
+        <!-- footer 
+        <div class="mt-5" >
+            <div>
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark mt-4">
+                  <div class="container-fluid m-0 p-0">
+                    <h5 class="text-white me-auto ms-auto"> To know more about us, Contact through -</h5>
+
+                  </div>
+                </nav>
+              </div>
+        </div>  -->
+
+    </div>
+    
+
+
+    <script src="profile.js"></script>
+</body>
+
+<footer class="bd-footer py-4 py-md-5 mt-5 bg-body-tertiary bg-dark ">
+    <div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary">
+      <div class="row">
+        <div class="col-lg-3 mb-3">
+          <a class="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none" href="index.html" aria-label="Bootstrap">
+            <span class="fs-1 text-white">Discover<span class="text-warning">Plus</span></span>
+          </a>
+          <ul class="list-unstyled small"> <span class="text-white">
+            <li class="mb-2">Explore and discover</li>
+            <li class="mb-2">new things all over the world.</li>
+            <li class="mb-2">Try Quizes and Polls!</li> </span>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+          <ul class="list-unstyled">
+            <li class="mb-2"><a class="text-body-emphasis text-decoration-none" href="#"><h4><span class="fs-5 text-warning">Categories</span></h4></a></li>
+            <li class="mb-2"><span class="text-white">Check all the categories</span></li>
+            <li class="mb-2"><span class="text-white">that you like and</span></li>
+            <li class="mb-2"><span class="text-white">get to what you don't</span></li>
+            <li class="mb-2"><span class="text-white">know yet.</span></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2 mb-3">
+          <ul class="list-unstyled">
+            <li class="mb-2"><a class="text-body-emphasis text-decoration-none" href="#"><h4><span class="fs-5 text-warning">About Us</span></h4></a></li>
+            <li class="mb-2"><span class="text-white">To know</span></li>
+            <li class="mb-2"><span class="text-white">more about us</span></li>
+            <li class="mb-2"><span class="text-white">click here and</span></li>
+            <li class="mb-2"><span class="text-white">check on us.</span></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2 mb-3">
+          <ul class="list-unstyled">
+            <li class="mb-2"><a class="text-body-emphasis text-decoration-none" href="#"><h4><span class="fs-5 text-warning">Services</span></h4></a></li>
+            <li class="mb-2"><span class="text-white">Finding it difficult</span></li>
+            <li class="mb-2"><span class="text-white">to us this site?</span></li>
+            <li class="mb-2"><span class="text-white">Click here and</span></li>
+            <li class="mb-2"><span class="text-white">know all how to's!</span></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2 mb-3">
+          <ul class="list-unstyled">
+            <li class="mb-2"><a class="text-body-emphasis text-decoration-none" href="#"><h4><span class="fs-5 text-warning">Quizes/Polls</span></h4></a></li>
+            <li class="mb-2"><span class="text-white">Haven't tried yet?</span></li>
+            <li class="mb-2"><span class="text-white">Check our new feature</span></li>
+            <li class="mb-2"><span class="text-white">you can test</span></li>
+            <li class="mb-2"><span class="text-white">your knowledge.</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</footer>
+
+</html>
